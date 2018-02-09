@@ -1,0 +1,19 @@
+{
+    "name": "administrator/likephp",
+    "authors": [
+        {
+            "name": "jiangxijun",
+            "email": "jiang818@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">= 7.0.0",
+        "shandian818/liketools": "*"
+    },
+    "autoload":{
+        "psr-4": {
+            "LikePHP\\Core": "core/"
+        }
+    }
+
+}
